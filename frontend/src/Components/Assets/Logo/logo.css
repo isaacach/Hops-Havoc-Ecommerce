@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  position: absolute;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.and {
+  position: relative;
+  left: -88px;
+  top: 7px;
+  color: #FF834F;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 5px #1D1D1D;
+}
+
+.two {
+  position: relative;
+  left: -72px;
+  top: 30px;
+}
