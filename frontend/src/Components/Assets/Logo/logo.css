@@ -1,25 +1,17 @@
 .wrapper {
-  width: 100px;
-  height: 100px;
+  height: 50%;
+  display: flex;
+  align-items: center;
 }
+
 .logo {
-  position: absolute;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2.2rem;
 }
 
 .and {
-  position: relative;
-  left: -88px;
-  top: 7px;
-  color: #FF834F;
-  font-size: 40px;
-  font-weight: bold;
-  text-shadow: 1px 5px #1D1D1D;
+  color: var(--accent-color);
+  font-size: 3.3rem;
+  text-shadow: 1px 2px rgb(95, 93, 93);
 }
 
-.two {
-  position: relative;
-  left: -72px;
-  top: 30px;
-}

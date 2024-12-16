@@ -1,5 +1,6 @@
 import { Logo } from "../Assets/Logo/Logo";
 import { Link } from "react-router-dom";
+import { FaCartShopping } from "react-icons/fa6";
 import "./Navbar.css";
 
 export const Navbar = () => {
@@ -18,6 +19,9 @@ export const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/cart"><FaCartShopping className="cart-pic"/> Cart</Link>
         </li>
       </ul>
     </div>

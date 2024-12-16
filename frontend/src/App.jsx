@@ -1,10 +1,11 @@
-import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+import { Layout } from './Components/Layout/Layout';
+import { About } from './Pages/About';
+import { Cart } from './Pages/Cart';
 import { Contact } from './Pages/Contact';
 import { HowToBrew } from './Pages/HowToBrew';
 import { Shop } from './Pages/Shop';
-import { About } from './Pages/About';
-import { Layout } from './Components/Layout';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
               <Route path="howToBrew" element={<HowToBrew />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="cart" element={<Cart />} />
             </Route>
           </Routes>
         </BrowserRouter>

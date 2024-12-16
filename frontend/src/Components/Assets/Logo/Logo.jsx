@@ -7,8 +7,8 @@ export const Logo = () => {
       <div className='wrapper'>
         <div className="logo">
           <span className='one'>hops</span>
-          <span className='two'>havoc</span>
           <span className='and'>&</span>
+          <span className='two'>havoc</span>
         </div>
       </div>
     </>
