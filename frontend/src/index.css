@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #F8F7E5;
-  background-color: #748F99;
+  background-color: #44555c;
   background-image: url(Components/assets/asfalt-light.png);
 
   font-synthesis: none;
@@ -15,6 +15,7 @@
 
   --main-color: #748F99;
   --accent-color: #FF834F;
+ 
 }
 
 

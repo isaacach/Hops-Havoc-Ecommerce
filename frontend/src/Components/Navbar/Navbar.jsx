@@ -6,7 +6,7 @@ import "./Navbar.css";
 export const Navbar = () => {
   return (
     <div className="navbar">
-      <Logo />
+      <Link to="/home"><Logo /></Link>
       <ul className="links">
         <li>
           <Link to="/shop">Shop</Link>
