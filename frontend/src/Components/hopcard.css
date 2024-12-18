@@ -1,0 +1,27 @@
+.card-wrapper {
+  width: 10rem;
+  height: 15rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.image {
+  height: 65%;
+  border-bottom: 1px solid gray;
+  background-color: rgb(194, 167, 118);
+  
+}
+
+.description {
+  padding: 0 5px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 15px;
+}

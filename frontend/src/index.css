@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: #F8F7E5;
   background-color: #44555c;
-  background-image: url(Components/assets/asfalt-light.png);
+  background-image: url(Components/Assets/light-paper-fibers.png);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,8 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --main-color: #748F99;
+  --text-color: #F8F7E5;
   --accent-color: #FF834F;
- 
 }
 
 
