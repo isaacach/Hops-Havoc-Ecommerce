@@ -1,5 +1,6 @@
 package com.ecommerce.demo.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ecommerce.demo.model.Hop;
 import com.ecommerce.demo.repo.HopRepository;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @RestController
 @RequestMapping("/hops")
@@ -34,5 +37,18 @@ public class HopController {
 
         return listHops;
     }
+
+    @GetMapping("/filter")
+    public List<Hop> getMethodName(@RequestParam("filter") String filter, @RequestParam("filterValue") String filterValue) {
+        List<Hop> newHopList = new ArrayList<>();
+        List<Hop> listHops = hopRepo.findAll();
+        for (Hop hop : listHops) {
+            if (hop.getProfile().contains(filter)) {
+                newHopList.add(hop);
+            }
+        }
+        return newHopList;
+    }
+    
 
 }

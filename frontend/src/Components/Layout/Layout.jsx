@@ -4,11 +4,11 @@ import "./Layout.css";
 import { useEffect, useState } from "react";
 
 export const Layout = () => {
-  const [size, setSize] = useState(100); // Initial size in pixels
+  const [size, setSize] = useState(5); 
 
   const handleScroll = () => {
-    const scrollTop = window.scrollY; // Distance scrolled from the top
-    const newSize = 100 - (scrollTop/ 25); // Minimum size is 50px
+    const scrollTop = window.scrollY; 
+    const newSize = 100 - (scrollTop/ 25); 
     setSize(newSize / 20);
   };
 

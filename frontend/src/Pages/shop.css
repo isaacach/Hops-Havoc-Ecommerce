@@ -1,5 +1,16 @@
+.main-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
 .wrapper {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.hopCard {
+  width: 20%;
+  height: 15rem;
 }
